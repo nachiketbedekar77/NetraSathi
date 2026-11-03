@@ -1,0 +1,24 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Uploads & Scans generated at runtime
+data/scans/*
+!data/scans/.gitkeep
+data/test_report.pdf
+data/netrasathi.db
+data/netrasathi.db-journal
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
