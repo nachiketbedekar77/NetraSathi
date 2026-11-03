@@ -128,3 +128,4 @@ def generate_png_logo(output_path):
 if __name__ == "__main__":
     generate_svg_logo("assets/logo.svg")
     generate_png_logo("assets/logo.png")
+

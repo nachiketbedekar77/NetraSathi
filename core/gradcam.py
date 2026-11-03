@@ -202,3 +202,4 @@ def generate_gradcam_overlay(
     ).astype(np.uint8)
 
     return overlay_rgb, heatmap_final
+

@@ -205,3 +205,4 @@ def predict(image_input) -> tuple[int, list[float], float, bool]:
     latency_sec = round(time.perf_counter() - start_time, 3)
 
     return grade, probs, latency_sec, is_demo
+

@@ -43,9 +43,9 @@ TRANSLATIONS = {
         "eye_right": "Right Eye (OD - Oculus Dexter)",
         "eye_left": "Left Eye (OS - Oculus Sinister)",
         "input_method": "Input Image Source",
-        "input_upload": "Upload Retinal Photo",
-        "input_camera": "Capture with Camera",
+        "input_camera": "Capture with Camera 📷 (Live Demo)",
         "input_sample": "Use Verified Sample Image",
+        "input_upload": "Upload Retinal Photo",
         "sample_normal": "Sample 1: Normal Fundus (Grade 0 - No DR)",
         "sample_moderate": "Sample 2: Moderate NPDR (Grade 2 - Exudates & Microaneurysms)",
         "sample_severe": "Sample 3: Severe PDR (Grade 4 - Neovascularization & Infarcts)",
@@ -223,3 +223,4 @@ def get_text(key: str, lang: str = "en") -> str:
     """Safely fetch localized text string."""
     lang_dict = TRANSLATIONS.get(lang, TRANSLATIONS["en"])
     return lang_dict.get(key, TRANSLATIONS["en"].get(key, key))
+

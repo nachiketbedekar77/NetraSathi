@@ -154,3 +154,4 @@ def get_patient_scans(patient_id: int) -> List[Dict[str, Any]]:
 
 # Initialize database on import
 init_db()
+

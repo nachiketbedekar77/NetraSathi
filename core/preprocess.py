@@ -129,3 +129,4 @@ def preprocess_retinal_image(image_input) -> tuple[np.ndarray, np.ndarray, np.nd
     cleaned_bgr = clahe_green_channel(ben_graham, mask)
     
     return raw_bgr, cleaned_bgr, mask, circle_info
+

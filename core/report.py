@@ -283,3 +283,4 @@ def generate_pdf_report(
     doc.build(story)
     buffer.seek(0)
     return buffer.getvalue()
+

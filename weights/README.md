@@ -14,3 +14,4 @@ Place your clinically trained Diabetic Retinopathy PyTorch weights here:
   - 4: Proliferative
 
 When `dr_model.pt` is missing, **NetraSathi** automatically runs in **DEMO MODE** using an ImageNet-initialized backbone and clearly marks all outputs, dashboards, and PDF reports as illustrative college demo predictions.
+

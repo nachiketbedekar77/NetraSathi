@@ -89,3 +89,4 @@ def assess_image_quality(
             "coverage_normalized": round(coverage_norm, 2)
         }
     }
+
